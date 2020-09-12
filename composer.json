@@ -1,0 +1,15 @@
+{
+	"name": "church/yaf",
+    "type": "project",
+    "description": "yaf",
+    "keywords": ["yaf", "yaf"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+		"church/yaf-command": "dev-master",
+		"firebase/php-jwt": "dev-master",
+		"thingengineer/mysqli-database-class": "dev-master",
+		"rmccue/requests": "dev-master"
+	},
+	"minimum-stability": "dev"
+}
