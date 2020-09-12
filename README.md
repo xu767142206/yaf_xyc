@@ -1,15 +1,13 @@
 ### 简介
-为了更好地使用yaf, 特意制作该模板, 且提供了创建常用组件的工具
+学习用的yaf框架，简单封装了一些组件，curd应该是够了
 
 ### 环境依赖
 - yaf扩展
 - composer
+- php >=7.0
 
 
-### 安装
 
-```shell
-composer create-project church/yaf-template yaf-website dev-master
 ```
 
 ### 工具使用
