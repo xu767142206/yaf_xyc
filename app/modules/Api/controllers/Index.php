@@ -9,9 +9,9 @@ class IndexController extends Controller_Abstract
     public function indexAction()
     {
 
-//        $db = MysqlDb::getDb();
-//        $arr = $db->get('oil_city', 10); //contains an Array 10 users
-        return json(['code' => 2, 'msg' => "请求不是post"]);
+        $db = MysqlDb::getDb();
+        $arr = $db->get('ptcms_novelsearch_chapter_0', 100); //contains an Array 10 users
+        return json(['code' => 2, 'msg' => $arr]);
     }
 
     public function testAction()
